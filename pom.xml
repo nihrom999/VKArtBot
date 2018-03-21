@@ -10,6 +10,8 @@
 
   <properties>
     <telegrambots.version>3.6</telegrambots.version>
+    <vkapi.version>0.5.12</vkapi.version>
+    <slf4j.version>1.7.25</slf4j.version>
   </properties>
 
   <dependencies>
@@ -25,6 +27,18 @@
       <artifactId>telegrambots</artifactId>
       <version>${telegrambots.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.vk.api</groupId>
+      <artifactId>sdk</artifactId>
+      <version>${vkapi.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-jdk14</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+
 
   </dependencies>
 
